@@ -1,13 +1,15 @@
 import '../../App.css'
 import Header from '../Header'
 import React from 'react'
-// import Card from '../Card'
+import Card from '../Cards'
+import About from './About'
 
 function Home () {
   return (
     <div>
       <Header />
-      {/* <Card /> */}
+      <About />
+      <Card />
     </div>
   )
 }

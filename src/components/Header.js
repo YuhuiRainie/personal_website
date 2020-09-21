@@ -22,7 +22,6 @@ function Header () {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
         >
          See My CV <i className='fas fa-file-alt' />
         </Button>
