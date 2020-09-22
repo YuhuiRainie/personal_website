@@ -1,33 +1,64 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button'
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import './About.css'
+import { Link } from 'react-router-dom'
+// import CardItem from '../CardItem'
+// import '../Card.css'
+// import Button from 'react-bootstrap/Button'
+// import { Container, Row, Col, Image } from 'react-bootstrap'
 function About () {
   return (
-    <div id='about' className='about_me'>
-      <Container>
-        <Row>
-          <Col xs={3}>
-            <Image src='/projects/bubblePop.png' roundedCircle />
-          </Col>
-          <Col xs={9}>
-            <h1 className='header'>About</h1>
-            <p>Experienced Tutor with a demonstrated history of working in the higher education industry. Skilled in Python (Programming Language), English, Java, SQL, and Microsoft Office. Strong education professional with a Master of Computer Science focused in Machine Learning from The Australian National University. </p>
-            <Button href='https://github.com/sharkdeng'>Github</Button>
-            <Button href='https://www.linkedin.com/in/shark-deng-6639b2181/'>Linkedin</Button>
-            <Button href='https://www.kaggle.com/muerbingsha'>Kaggle</Button>
-            <a href='https://stackoverflow.com/users/9355534/shark-deng'>
-              <img
-                src='https://stackoverflow.com/users/flair/9355534.png'
-                width='120'
-                height='35'
-                alt='profile for Shark Deng at Stack Overflow, Q&amp;A for professional and enthusiast programmers'
-                title='profile for Shark Deng at Stack Overflow, Q&amp;A for professional and enthusiast programmers'
-              />
-            </a>
-            <Button href='https://www.facebook.com/limin.deng.2019'>Facebook</Button>
-          </Col>
-        </Row>
-      </Container>
+    <div className='about_container'>
+      <div className='container'>
+        <div className='p-4 mb-0 bg-white text-dark'>
+          <div className='row'>
+            <div className='col-md-5'>
+              <div className='about-img'>
+                {/* <img className='shape' src='projects/bubblePop.png' alt='' /> */}
+                <img className='my_picture' src='/my_photo/my_pic1.jpg' alt='' />
+              </div>
+            </div>
+            <br />
+            <div className='col-md-7 about-right'>
+              <h1 className='color-3'><b>About Me</b>
+              </h1>
+              <p className='text-dark'>
+              A dedicated graduate from the University of Technology Sydney with a Master’s degree in Software Engineering.
+              </p>
+              <p className='text-dark'>
+              Seeking a role in Frontend that would utilize my coding skills to help solve real-world challenges and build great software solutions.
+              </p>
+              <p>
+              I am passionate about tech-related knowledge. Like web, application, neural network and deep learning. I am keen to learn more. I'm a faster learner as well
+              </p>
+              <h3 className='color-3 social-link-text'>
+                <button className='btn btn-danger'>Conect with me</button>
+              </h3>
+              <ul className='about-link'>
+                <li>
+                  <Link
+                    className='social-icon-link Github'
+                    to='/'
+                    target='https://github.com/YuhuiRainie'
+                    aria-label='Github'
+                  >
+                    <i className='fab fa-github' />
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className='social-icon-link Linkedin'
+                    to='/'
+                    target='https://www.linkedin.com/in/yuhui-liu/'
+                    aria-label='LinkedIn'
+                  >
+                    <i className='fab fa-linkedin' />
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

@@ -1,10 +1,11 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background: rgb(8, 8, 8);
   }
   
-  h1 {
+  .projects_heading{
     text-align: center;
+    color:#fff;
   }
   
   .cards__container {
@@ -30,6 +31,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    background-color: #fff;
   }
   
   .cards__item__link {
@@ -99,11 +101,11 @@
     line-height: 24px;
   }
   
-  @media only screen and (min-width: 1200px) {
+  /* @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
     }
-  }
+  } */
   
   @media only screen and (min-width: 1024px) {
     .cards__items {
