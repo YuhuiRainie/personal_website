@@ -32,7 +32,7 @@ function Cards () {
             <CardItem
               src='/projects/car_for_renting_ios.png'
               text='It is a iOS app for renting cars'
-              label='iOS + alarmfy'
+              label='iOS + Alamofire'
               path='https://github.com/YuhuiRainie/uts-ios-2019-project3-130'
             />
             <CardItem
