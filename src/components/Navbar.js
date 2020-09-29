@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Button } from './Button'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import cv from '../Rainie_CV.pdf'
 
 function Navbar () {
   const [click, setClick] = useState(false)
@@ -9,7 +10,13 @@ function Navbar () {
 
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
-
+  const showCV = () => {
+    window.open(cv)
+  }
+  const downloadCVForSmallNav = () =>{
+    showCV();
+    closeMobileMenu();
+  }
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false)
@@ -62,15 +69,15 @@ function Navbar () {
 
             <li>
               <Link
-                to='/resume'
+                to='/'
                 className='nav-links-mobile'
-                onClick={closeMobileMenu}
+                onClick={downloadCVForSmallNav}
               >
                 Download CV
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Download CV</Button>}
+          {button && <Button buttonStyle='btn--outline' onClick={showCV}>Download CV</Button>}
         </div>
       </nav>
     </>

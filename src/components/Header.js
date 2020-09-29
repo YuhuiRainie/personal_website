@@ -2,8 +2,12 @@ import React from 'react'
 import { Button } from './Button'
 import './Header.css'
 import '../App.css'
+import cv from '../Rainie_CV.pdf'
 
 function Header () {
+  const showCV = () => {
+    window.open(cv)
+  }
   return (
     <div className='header-container'>
       <video src='/motionplaces fire-Oct2018.mp4' autoPlay loop muted />
@@ -22,6 +26,7 @@ function Header () {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
+          onClick={showCV}
         >
          See My CV <i className='fas fa-file-alt' />
         </Button>
