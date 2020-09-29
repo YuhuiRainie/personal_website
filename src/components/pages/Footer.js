@@ -18,22 +18,22 @@ function Footer () {
           </div>
           <small className='website-rights'>Rainie Liu © 2020</small>
           <div className='social-icons'>
-            <Link
+            <a
               className='social-icon-link Github'
               to='/'
-              target='https://github.com/YuhuiRainie'
+              href='https://github.com/YuhuiRainie'
               aria-label='Github'
             >
               <i className='fab fa-github' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link Linkedin'
               to='/'
-              target='https://www.linkedin.com/in/yuhui-liu/'
+              href='https://www.linkedin.com/in/yuhui-liu/'
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
