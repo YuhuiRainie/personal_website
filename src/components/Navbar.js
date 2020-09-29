@@ -13,9 +13,10 @@ function Navbar () {
   const showCV = () => {
     window.open(cv)
   }
-  const downloadCVForSmallNav = () =>{
-    showCV();
-    closeMobileMenu();
+  const downloadCVForSmallNav = () => {
+    showCV()
+    closeMobileMenu()
+    window.location = '/'
   }
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -66,7 +67,6 @@ function Navbar () {
                 Projects
               </Link>
             </li>
-
             <li>
               <Link
                 to='/'
@@ -77,7 +77,7 @@ function Navbar () {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline' onClick={showCV}>Download CV</Button>}
+          {button && <Button buttonStyle='btn--outline' onClick={downloadCVForSmallNav}>Download CV</Button>}
         </div>
       </nav>
     </>
