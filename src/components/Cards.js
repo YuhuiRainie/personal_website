@@ -25,7 +25,7 @@ function Cards () {
               src='/projects/personal_website.png'
               text='Personal website developed with React'
               label='React'
-              path='/projects'
+              path='https://www.rainie.cf/'
             />
           </ul>
           <ul className='cards__items'>
