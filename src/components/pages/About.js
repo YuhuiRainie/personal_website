@@ -28,10 +28,10 @@ function About () {
               Seeking a role in Frontend that would utilize my coding skills to help solve real-world challenges and build great software solutions.
               </p>
               <p>
-              I am passionate about tech-related knowledge. Like web, application, neural network and deep learning. I am keen to learn more. I'm a faster learner as well
+              I am passionate about tech-related knowledge, like web, application, neural network and deep learning. I am keen to learn more. I'm a fast learner as well
               </p>
               <h3 className='color-3 social-link-text'>
-                <button className='btn btn-danger'>Conect with me</button>
+                <button className='btn btn-danger'>Connect with me</button>
               </h3>
               <ul className='about-link'>
                 <li>

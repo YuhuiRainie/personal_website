@@ -17,13 +17,13 @@ function Cards () {
             />
             <CardItem
               src='/projects/Online_picture_discussion_community.png'
-              text='MEAN stack website developed by Angular and Nodejs'
+              text='MEAN stack website developed with Angular and Nodejs'
               label='Angular'
               path='https://github.com/YuhuiRainie/AIP-ass3'
             />
             <CardItem
               src='/projects/personal_website.png'
-              text='Personal website developed by React'
+              text='Personal website developed with React'
               label='React'
               path='/projects'
             />
@@ -37,7 +37,7 @@ function Cards () {
             />
             <CardItem
               src='/projects/bubblePop.png'
-              text='It is a website to predict the plant disease based on picture'
+              text='It is an iOS gaming app. By clicking bubbles with different colours, you got corresponding scores!'
               label='iOS'
               path='https://github.com/YuhuiRainie/BubblePop_Game'
             />

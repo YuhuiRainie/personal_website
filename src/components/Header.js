@@ -8,7 +8,7 @@ function Header () {
     <div className='header-container'>
       <video src='/motionplaces fire-Oct2018.mp4' autoPlay loop muted />
       <h1>Rainie Liu</h1>
-      <p>Software Enginner based on Sydney</p>
+      <p>Software Engineer based in Sydney</p>
       <p>The days break you are the days make you</p>
       <div className='header-btns'>
         <Button
