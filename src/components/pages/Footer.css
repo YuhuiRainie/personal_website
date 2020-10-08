@@ -163,4 +163,17 @@
   }
   
   @media screen and (max-width: 768px) {
+    .footer-container{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .footer-container{
+      width: 100%;
+      
+    }
+    .footer-links > h2 {
+      margin-left: 75px;
+      margin-right: 5px;
+    }
   }

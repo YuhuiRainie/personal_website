@@ -70,3 +70,28 @@ video {
       width: 100%;
     }
   }
+
+  @media screen and (max-width: 360px) {
+    .header-container{
+      width: 100%;
+    }
+    .header-container > h1 {
+      font-size: 50px;
+      margin-top: 20px;
+    }
+  
+    .header-container > p {
+      font-size: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
